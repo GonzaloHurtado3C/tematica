@@ -1,0 +1,47 @@
+# Undertale Web - Registro de Actualizaciones
+
+## Descripción General
+
+Esta página web se inspira en el fascinante universo de **Undertale**, el aclamado videojuego indie. Aquí podrás encontrar personajes emblemáticos, imágenes animadas y textos descriptivos, todo presentado con una estética y una paleta de colores que evocan la atmósfera del juego.
+
+
+## Actualizaciones Recientes
+
+### Estructura y Diseño
+
+-**Reorganización de bloques:**  
+Ahora, cada personaje tiene su propio bloque, donde la imagen y el texto descriptivo están alineados horizontalmente, lo que
+mejora tanto la legibilidad como el diseño visual.
+-**Flexbox aplicado:**  
+Se ha implementado Flexbox para alinear imágenes y textos, permitiendo que ambos se ajusten al tamaño de la pantalla y se mantengan uno al lado del otro.
+
+### Imágenes
+
+-**Nuevas imágenes animadas:**  
+Se han añadido GIFs de personajes como Mettaton, Endogeny, Sans, Asriel y Papyrus, haciendo que la experiencia sea más dinámica y fiel al juego.
+-**Ajuste de tamaños:**  
+Las imágenes ahora se presentan más grandes y centradas, ocupando la mitad del espacio del bloque para resaltar a cada personaje.
+-**Bordes y sombras:**  
+Todas las imágenes cuentan con bordes blancos y sombras suaves para destacar sobre el fondo oscuro.
+
+### Colores y Estética
+
+-**Fondo:**  
+El fondo de la página es negro (`#000`), evocando los menús y escenarios de Undertale.
+-**Texto:**  
+El texto principal es blanco (`#fff`) para asegurar el máximo contraste y legibilidad.
+-**Bloques y párrafos:**  
+Los textos descriptivos tienen un fondo semitransparente oscuro y bordes blancos, simulando los cuadros de diálogo del juego.
+-**Sombra y bordes:**  
+Se han añadido sombras y bordes redondeados a imágenes y bloques para dar un aspecto más moderno y atractivo.
+
+### Otros Detalles
+
+-**Tipografía:**  
+Se utiliza `Comic Sans MS` en los textos descriptivos, como un homenaje al estilo distintivo del juego.
+
+New version:
+**Encabezado animado:**  
+El encabezado presenta un "<marquee>" con la fuente Sans, lo que le da un aire retro y divertido.  
+-**Código limpio y organizado:**  
+Se ha mejorado la estructura del HTML y CSS, facilitando así futuras actualizaciones y el mantenimiento.
