@@ -61,7 +61,7 @@ body {
 .Papyrus-bloque {
   flex-direction: row-reverse;
 }
-/* Paragraph next to the image */
+
 .parrafo {
   margin: 0;
   min-width: 0;
