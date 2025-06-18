@@ -28,6 +28,7 @@ body {
   font-family: Comic Sans MS; /* Cambia la fuente del texto */
   border: solid 2px #fff; /* Borde del contenedor */
   width: fit-content;     /* Ajusta el ancho al contenido */
+  border-radius: 5px;     /*  bordes redondeados  */
 }
 
 .bloque-personaje {
