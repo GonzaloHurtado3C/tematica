@@ -1,19 +1,18 @@
-
 body {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  background-color: #000;
-  font-family: Arial, sans-serif;
+  margin: 0;                      /* elimina el margin por defecto */
+  padding: 0;                     /* elimina el padding por defecto */
+  color: #fff;                  /* Color del texto */
+  background-color: #000;       /* Color de fondo de la página */
+  font-family: Arial, sans-serif; /* Es par cambiar la fuente de el texto */
 }
 
 
 .contenedor {
   padding: 0;
-  width: 100vw;
-  min-height: 100vh;
-  box-sizing: border-box;
-  border: solid 2px white;
+  width: 100vw;               /* es el ancho del contenedor */
+  min-height: 100vh;          /* es la altura mínima del contenedor */
+  box-sizing: border-box;     /* para que el padding no afecte al ancho y alto del contenedor */
+  border: solid 2px white;  /* Borde del contenedor */
 }
 
 .nav {
@@ -21,74 +20,76 @@ body {
   margin-bottom: 32px;
 }
 .nav marquee p {
-  gap: 16px;
-  display: flex;
-  color: #fff;
-  font-size: 1.2rem;
-  align-items: center;
-  font-family: Comic Sans MS;
-  border: solid 2px #fff;
+  gap: 16px;         /* espacio entre los elementos */
+  display: flex;      /* para que el texto se muestre en una sola línea */
+  color: #fff;        /* Color del texto */
+  font-size: 1.2rem;      /* Tamaño del texto */
+  align-items: center;       /* Alinea el texto verticalmente */
+  font-family: Comic Sans MS; /* Cambia la fuente del texto */
+  border: solid 2px #fff; /* Borde del contenedor */
+  width: fit-content;     /* Ajusta el ancho al contenido */
 }
 
 .bloque-personaje {
-  gap: 32px;
+  gap: 32px;      
   width: 100vw;
-  display: flex;
-  padding: 0 5vw;
-  min-height: 60vh;
-  margin-bottom: 40px;
-  align-items: center;
-  box-sizing: border-box;
+  display: flex;       /* para que los elementos se muestren en una sola línea */
+  padding: 0 5vw; /* padding del contenedor */
+  min-height: 60vh; /* altura mínima del contenedor */
+  margin-bottom: 40px; /* espacio entre los bloques */
+  align-items: center;  /* Alinea los elementos verticalmente */
+  box-sizing: border-box;   /* para que el padding no afecte al ancho y alto del contenedor */
 }
 
 .bloque-personaje img {
   width: 0;
   height: 60vh;
-  flex: 1 1 50%;
-  display: block;
-  background: #000000;
-  object-fit: contain;
-  border-radius: 12px;
-  border: solid 3px #fff;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.667);
+  flex: 1 1 50%; 
+  display: block; /* para que la imagen se muestre como un bloque */
+  background: rgb(0, 0, 0); 
+  object-fit: contain; /* para que la imagen se ajuste al contenedor */
+  border-radius: 12px; /* Bordes redondeados */
+  border: solid 3px #fff; /* Borde de la imagen */
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.667);  /* Sombra de la imagen */
 }
 
 
 .endogeny-bloque {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse;   /* Para que la imagen esté a la derecha del texto */
 }
 
 .Papyrus-bloque {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; 
 }
 
 .parrafo {
-  margin: 0;
+  margin: 0;       
   min-width: 0;
-  padding: 24px;
-  flex: 1 1 50%;
+  padding: 24px;   
+  flex: 1 1 50%;     /* para que el texto ocupe el 50% del ancho del contenedor */
   color: #fff;
-  line-height: 1.6;
-  font-size: 1.2rem;
-  text-align: justify;
-  border-radius: 10px;
-  box-sizing: border-box;
+  line-height: 1.6;   /* Espacio entre líneas */
+  font-size: 1.2rem;  
+  text-align: justify;  /* Alinea el texto a la izquierda */
+  border-radius: 10px;  /* Bordes redondeados */
+  box-sizing: border-box;   /* para que el padding no afecte al ancho y alto del contenedor */
   border: solid 2px #fff;
-  font-family: Comic Sans MS;
-  box-shadow:0 0 12px #222a;
+  font-family: Comic Sans MS; /* Cambia la fuente del texto */
+  box-shadow:0 0 12px #222a; /* Sombra del texto */
 }
 
-@media (max-width: 900px) {
-  .bloque-personaje {
-  gap: 24px;
-  padding: 0 2vw;
-  min-height: unset;
-  flex-direction: column;
+@media (max-width: 900px) { /* @media se usa para que ajuste el tamaño de la pantalla de pc y movil */
+  .bloque-personaje {      
+  gap: 24px;           /* espacio entre los elementos */
+  padding: 0 2vw;          /* padding del contenedor */
+  min-height: unset;     /* para que la altura mínima del contenedor se ajuste al contenido */
+  flex-direction: column; /* para que los elementos se muestren en una sola columna */
   }
+
   .bloque-personaje img,
   .parrafo {
-  height: auto;
-  min-height: 200px;
-  width: 100% !important;
+  height: auto;  /* para que la imagen y el texto se ajusten al contenido */
+  min-height: 200px;  /* altura mínima de la imagen y el texto */
+  width: 100% !important; /* para que la imagen y el texto ocupen el 100% del ancho del contenedor */
   }
 }
