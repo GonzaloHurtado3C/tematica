@@ -6,7 +6,6 @@ body {
   font-family: Arial, sans-serif; /* Es par cambiar la fuente de el texto */
 }
 
-
 .contenedor {
   padding: 0;
   width: 100vw;               /* es el ancho del contenedor */
@@ -53,7 +52,6 @@ body {
   border: solid 3px #fff; /* Borde de la imagen */
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.667);  /* Sombra de la imagen */
 }
-
 
 .endogeny-bloque {
   flex-direction: row-reverse;   /* Para que la imagen esté a la derecha del texto */
